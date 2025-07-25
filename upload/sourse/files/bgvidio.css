@@ -1,0 +1,29 @@
+.bgvideo  {
+height: 70vh;
+   width: 100%;
+   position: relative;
+   display: flex;
+   align-items:self-start;
+}
+
+
+.bgvideo video {
+height: 70vh;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   object-fit: cover;
+   z-index: 1;
+   
+
+}
+
+ 
+
+.video-text {
+   
+   color: aquamarine;
+   z-index: 2;
+   
+}
